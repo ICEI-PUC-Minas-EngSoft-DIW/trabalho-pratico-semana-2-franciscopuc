@@ -1,8 +1,8 @@
 # template-diw-20251-semana-02
 
 ## Informações Gerais
-- Nome: 
-- Matricula:
+- Nome: Francisco Maycon Lima Castro
+- Matricula: 900399
 
 ## Print da tela da página criada (Curriculum Vitae)
 

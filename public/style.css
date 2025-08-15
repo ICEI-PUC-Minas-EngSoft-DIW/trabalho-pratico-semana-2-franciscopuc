@@ -1,0 +1,112 @@
+/* Fontes */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+:root {
+    /* Fontes */
+    font-family: Inter;
+    --body-font: clamp(14px, 1.6vw, 18px);
+    --subhead-font: clamp(18px, 1.92vw, 22px);
+    --head-font: clamp(28px, 3.2vw, 36px);
+
+    font-size: var(--body-font);
+}
+
+/* Estrutura */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 920px;
+    box-shadow: 0px 0px 9px 0px #3333332b;
+    padding: 20px 35px;
+}
+.lateral-um {
+    width: 33%;
+    padding: 20px 10px;
+}
+.lateral-dois {
+    width: 66%;
+    padding: 20px 10px;
+}
+.infos {
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+
+.nome {
+    font-size: var(--head-font);
+    font-weight: 600;
+}
+.profissao {
+    font-size: var(--subhead-font);
+    font-weight: 600
+}
+.atividades {
+    font-size: var(--body-font);
+    opacity: 0.7;
+}
+.atividades.dados {
+    text-align: right;
+}
+
+/* Corpo */
+
+.titulo {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    border-bottom: 2px solid;
+    font-weight: 800;
+    width: fit-content;
+    padding-bottom: 3px;
+    font-size: var(--body-font);
+}
+.bloco-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    align-items: center;
+}
+.sub-bloco-header {
+    display: flex;
+    flex-direction: column;
+}
+.sub-bloco {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+/* Lateral um */
+img.perfil {
+    width: 90%;
+    align-items: center;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.descricao {
+    margin-bottom: 5px;
+}
+.organizador-lateral {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
